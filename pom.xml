@@ -14,7 +14,11 @@
         <jackson.version>2.10.1</jackson.version>
     </properties>
     <dependencies>
-
+        <dependency>
+            <groupId>com.oracle.ojdbc</groupId>
+            <artifactId>ojdbc8</artifactId>
+            <version>19.3.0.0</version>
+        </dependency>
 
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
